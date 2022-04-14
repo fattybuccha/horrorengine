@@ -1,1 +1,9 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
+.blend filter=lfs diff=lfs merge=lfs -text
+.psd
+git[[:space:]]lfs[[:space:]]track[[:space:]].psd
+git[[:space:]]lfs[[:space:]]track[[:space:]].psd filter=lfs diff=lfs merge=lfs -text
+.fbx
+git[[:space:]]lfs[[:space:]]track[[:space:]]
+git[[:space:]]lfs[[:space:]]track[[:space:]]
+git[[:space:]]lfs[[:space:]]track[[:space:]].fbx filter=lfs diff=lfs merge=lfs -text
